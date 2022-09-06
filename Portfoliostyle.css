@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.Container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.logo{
+    font-size: 20px;
+    margin-top: 33px;
+    margin-left: 20px;
+    color: rgb(52, 158, 149);
+}
+
+.logo h1{
+    text-shadow: 3px 2px lightsalmon;
+}
+
+.logo span{
+    color: rgb(120, 213, 213);
+}
+
+.navigasi ul{
+    display: flex;
+    margin: 35px auto;
+}
+
+.navigasi ul li{
+    margin-right: 5px;
+}
+
+.navigasi ul li a{
+    text-decoration: none;
+    padding: 0px;
+    margin-left: 10px;
+
+}
+
+.navigasi ul li a:hover{
+    color: black;
+    background-color: blanchedalmond;
+}
+
+.Login{
+    margin-top: 35px;
+    
+}
+
+.Login a{
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.Login .regis{
+    border-radius: 150px;
+    border: 2px solid black;
+    padding: 8px;
+    margin-left: 5px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    background: url(./img/bg\ neon.jpg);
+    height: 645px;
+    width: 85%;
+    
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.text{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+.text h1{
+    margin-left: 50px;
+}
+
+.button button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.container2 .img{
+    margin-left: 7%;
+    width: 800px;
+    
+}
+
+.container3{
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3 .isi{
+    margin-right: 100px;
+}
+
+.container4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+
+.isi h1{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.isi .konten{
+    margin-top: 50px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.img2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer-top{
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.footer-add{
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-add ul li{
+    display: inline-block;
+   
+}
+
+@media(min-width: 600px ){
+    .Container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo{
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .navigasi ul li{
+        margin-right: 5px;
+    }
+
+    .navigasi ul li a{
+    padding: 5px;
+}
+
+    .container2 .img{
+    margin-left: 8%;
+
+}
+
+    .text{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-right:10%;
+    text-align: center;
+}
+
+    S.container2 .img{
+    margin-left: 8%;
+    width: 800px;
+    
+}
+
+.button button{
+    margin-right: -15px;
+}
+    
+}
